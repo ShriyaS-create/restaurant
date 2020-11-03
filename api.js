@@ -23,7 +23,7 @@ app.get('/health', (req,res)=> {
 
 //common
 app.get('/',(req,res)=>{
-    res.send(`<a href="http://localhost:8000/location" target="_blank">City</a> <br> <a href="http://localhost:8000/mealtype" target="_blank">MealType</a> <br> <a href="http://localhost:8000/restaurant" target="_blank">Restaurant</a> <br> <a href="http://localhost:8000/cuisine" target="_blank">Cuisines</a> <br> <a href="http://localhost:8000/order" target="_blank">Orders</a>`)
+    res.send(`<a href="https://restaurantapi0.herokuapp.com/location" target="_blank">City</a> <br> <a href="https://restaurantapi0.herokuapp.com/mealtype" target="_blank">MealType</a> <br> <a href="https://restaurantapi0.herokuapp.com/restaurant" target="_blank">Restaurant</a> <br> <a href="https://restaurantapi0.herokuapp.com/cuisine" target="_blank">Cuisines</a> <br> <a href="https://restaurantapi0.herokuapp.com/orders" target="_blank">Orders</a>`)
 })
 
 // for cities
